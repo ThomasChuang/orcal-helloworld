@@ -1,7 +1,7 @@
 # app metadata
-app: "movie-service"
+app: "orcal-helloworld-service"
 
-# resource requests and limits 
+# resource requests and limits
 resources:
   limits:
     cpu: 500m

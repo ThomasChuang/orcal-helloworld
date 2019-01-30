@@ -1,0 +1,4 @@
+
+[submodule "deploy/helm"]
+	path = deploy/helm
+	url = https://github.com/shopback/helm-app-template

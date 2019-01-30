@@ -1,0 +1,17 @@
+# name of the environment and k8s namespace
+# leave 'namespace' value blank to use value from 'env' parameter
+env: "production-id"
+namespace:
+
+envVariables:
+- name: NODE_ENV
+  value: "production-id"
+
+# number of replicas and autoscaling metrics thresholds
+replicas:
+  min: 1
+  max: 2
+  # leave blank target value to skip
+  # autoscaling based on this metric
+  cpu: 90
+  memory: 70

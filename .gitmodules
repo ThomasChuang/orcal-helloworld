@@ -1,5 +1,0 @@
-
-[submodule "deploy/helm"]
-	path = deploy/helm
-url = git@github.com:shopback/helm-app-template.git
-	branch = master
